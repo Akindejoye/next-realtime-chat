@@ -1,3 +1,4 @@
+import Button from '@/components/ui/Button';
 import { db } from '@/lib/db';
 
 export default async function Home() {
@@ -5,7 +6,7 @@ export default async function Home() {
 
   return (
     <div>
-      <h1 className='text-red-500'>Hello World!</h1>
+      <Button variant='ghost'>Hello</Button>
     </div>
   )
 }
